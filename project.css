@@ -1,0 +1,217 @@
+body{
+  /* This style will be inherited */
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+a:link    { text-decoration: none; color:unset; }
+a:visited { text-decoration: none; color: unset;}
+a:hover   { text-decoration: none; color: unset;}
+a:active  { text-decoration: none; color: unset;}
+
+
+
+
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(87, 87, 139);
+  color: white;
+  padding-right: 50px;
+}
+
+.company-name {
+  padding: 25px;
+  font-size: 30px;
+  animation-name: animation-company-name;
+  animation-duration: 2s;
+  position: relative;
+}
+
+@keyframes animation-company-name {
+  0%   {left:-1000px; top:0px;}
+  100%  {left:0px; top:0px;}
+}
+
+.info-menu {
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 25px;
+  animation-name: animation-info-menu;
+  animation-duration: 2s;
+  position: relative;
+}
+
+
+@keyframes animation-info-menu {
+  0%   {top:-100px;}
+  100%  {top:0px;}
+}
+
+.main-section {
+  margin-top: 0;
+}
+
+.back-image-box {
+  height: 400px;
+}
+
+.back-image {
+  display: block;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.after-img-text-box {
+  padding: 100px;
+  display: block;
+  text-align: center;
+  animation-name: animation-after-img-text-box;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  position: relative;
+}
+
+@keyframes animation-after-img-text-box {
+  0%   {background-color:rgb(87, 87, 139);}
+  100% {}
+}
+
+.after-img-text {
+  font-size: 30px;
+  margin-right: 200px;
+  margin-left: 200px;
+  animation-name: animation-after-img-text;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  color: rgb(87, 87, 139)
+}
+
+@keyframes animation-after-img-text {
+  0%   {color: rgb(243, 243, 243);}
+  100% {color: rgb(87, 87, 139)}
+}
+
+.after-img-small-paragraph {
+  font-size: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+  animation-name: animation-after-img-small-paragraph;
+  animation-duration: 4s;
+  animation-timing-function:cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  color: rgb(83, 83, 90)
+}
+
+@keyframes animation-after-img-small-paragraph {
+  0%   {color: rgb(243, 243, 243);}
+  100% {color: rgb(83, 83, 90)}
+}
+
+
+.services-grid {
+  background-color: lightgray;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+  justify-items: center;
+}
+
+.services-grid-head {
+  padding: 50px;
+  font-size: 30px;
+  display: block;
+  text-align: center;
+  color: rgb(87, 87, 139);
+  background-color: lightgray;
+}
+
+.back-office-box {
+  background-color: rgb(87, 87, 139);
+  padding: 20px;
+  margin-left: 300px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+
+.back-office-box-text {
+  margin-top: 10px;
+  color: white;
+}
+
+.customer-support-box {
+  padding: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  margin-right: 300px;
+  background-color: rgb(87, 87, 139);
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.customer-support-box-text {
+  margin-top: 10px;
+  color: white;
+}
+
+.contact-us-div {
+  height: 400px;
+  margin-top: 10px;
+}
+
+.pitch-paragraphs {
+  color: rgb(87, 87, 139);
+  font-size: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.reach-out-button-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.reach-out-button {
+  background-color: rgb(87, 87, 139);
+  color: white;
+  font-size: 25px;
+  height: 50px;
+  width: 180px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 12px;
+  transition: 0.15s;
+}
+
+.reach-out-button:hover {
+  cursor: pointer;
+}
+
+.reach-out-button:active {
+  background-color: white;
+  color: rgb(87, 87, 139);
+}
+
+.bottom-rights-text {
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  bottom: 0px;
+  margin-top: 50px;
+}

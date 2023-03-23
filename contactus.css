@@ -1,0 +1,200 @@
+body{
+  /* This style will be inherited */
+  font-family: Roboto, Arial;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+a:link    { text-decoration: none; color:unset; }
+a:visited { text-decoration: none; color: unset;}
+a:hover   { text-decoration: none; color: unset;}
+a:active  { text-decoration: none; color: unset;}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(87, 87, 139);
+  color: white;
+  padding-right: 50px;
+}
+
+.company-name {
+  padding: 25px;
+  font-size: 30px;
+  animation-name: animation-company-name;
+  animation-duration: 2s;
+  position: relative;
+}
+
+@keyframes animation-company-name {
+  0%   {left:-1000px; top:0px;}
+  100%  {left:0px; top:0px;}
+}
+
+.info-menu {
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 25px;
+  animation-name: animation-info-menu;
+  animation-duration: 2s;
+  position: relative;
+}
+
+
+@keyframes animation-info-menu {
+  0%   {top:-100px;}
+  100%  {top:0px;}
+}
+
+.top-div {
+  text-align:center
+}
+
+.text-1 {
+  color: rgb(87, 87, 139);
+  font-size: 60px;
+}
+
+.text-2 {
+  font-size: 30px;
+  color: rgb(122, 122, 122);
+}
+
+.contact-us-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.form-box {
+  box-sizing: border-box;
+  padding: 30px 0px 30px 50px;
+  position: relative;
+  margin-right: 10px;
+  color: rgb(87, 87, 139);
+  font-weight: bold;
+}
+
+.first-name-box {
+  margin-bottom: 10px;
+  font-size: 15px;
+  height: 50px;
+  width: 90%;
+  border: 2px solid rgb(122, 122, 122);
+  border-radius: 10px;
+  padding-left: 2%;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.last-name-box {
+  margin-bottom: 10px;
+  font-size: 15px;
+  height: 50px;
+  width: 90%;
+  border: 2px solid rgb(122, 122, 122);
+  border-radius: 10px;
+  padding-left: 2%;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.email-box {
+  margin-bottom: 10px;
+  font-size: 15px;
+  height: 50px;
+  width: 90%;
+  border: 2px solid rgb(122, 122, 122);
+  border-radius: 10px;
+  padding-left: 2%;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.company-name-box {
+  margin-bottom: 10px;
+  font-size: 15px;
+  height: 50px;
+  width: 90%;
+  border: 2px solid rgb(122, 122, 122);
+  border-radius: 10px;
+  padding-left: 2%;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.project-description-box {
+  margin-bottom: 10px;
+  font-size: 15px;
+  height: 100px;
+  width: 90%;
+  border: 2px solid rgb(122, 122, 122);
+  border-radius: 10px;
+  padding-left: 2%;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  resize: vertical;
+}
+
+.selection-div {
+  display: inline-block;
+}
+
+.send-button-div {
+  display: inline-block;
+  position: absolute;
+  right: 9%;
+}
+
+.send-button {
+  height: 30px;
+  width: 100px;
+  background-color: rgb(87, 87, 139);
+  border: 2px solid rgb(87, 87, 139); 
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.15s;
+}
+
+.send-button:hover {
+  cursor: pointer;
+}
+
+.send-button:active {
+  color: rgb(87, 87, 139);
+  background-color: white;
+}
+
+.location-info-div {
+  padding-left: 150px;
+  padding-top: 50px;
+  margin-left: 10px;
+}
+
+.linkedin-img-div {
+ text-align: right;
+}
+
+.linkedin-img {
+  height: 50px;
+}
+
+.linkedin-button {
+  background-color: transparent;
+  border: none;
+  margin-right: 10%;
+}
+
+.linkedin-button:hover {
+  cursor: pointer;
+}
+
+.bottom-rights-text {
+  font-size: 30px;
+  bottom: 0px;
+  text-align: center;
+}
