@@ -6,14 +6,13 @@ body{
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 a:link    { text-decoration: none; color:unset; }
 a:visited { text-decoration: none; color: unset;}
 a:hover   { text-decoration: none; color: unset;}
 a:active  { text-decoration: none; color: unset;}
-
-
 
 
 
@@ -66,7 +65,7 @@ a:active  { text-decoration: none; color: unset;}
 }
 
 .info-menu div {
-list-style-type: none;
+  list-style-type: none;
 }
 
 .info-menu div a {
@@ -96,9 +95,9 @@ list-style-type: none;
 .hamburger:after {
   content: "";
   position: absolute;
-  right: 0;
   height: 4px;
-  background: white;
+  right: 0;
+  background: #fff;
   border-radius: 10px;
   transition: 0.25s;
 }
@@ -122,11 +121,13 @@ list-style-type: none;
   opacity: 0;
 }
 
+
+
 .navigation input:checked ~ .hamburger {
   background: transparent;
 }
 
-.navigation input:checked ~ .hamburger::before {
+.navigation input:checked ~ .hamburger:before {
   top: 0;
   transform: rotate(-45deg);
   width: 30px;
@@ -143,7 +144,7 @@ list-style-type: none;
   box-shadow: -20px 0 40px rgba(0,0,0,0.3);
 }
 
-@media screen and (max-width:px) {
+@media screen and (max-width:720px) {
   .hamburger,
   .toggle-menu {
     display: block;
@@ -165,6 +166,17 @@ list-style-type: none;
     height: 100%;
     padding-top: 65px;
   }
+}
+
+.info-menu div {
+  width: 100%;
+}
+
+.info-menu div a,
+.info-menu div a:hover {
+  padding: 30px;
+  font-size: 24px;
+  box-shadow: 0 1px 0 rgba(255,255,255, 0.1) inset;
 }
 
 .main-section {
