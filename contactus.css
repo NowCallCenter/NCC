@@ -339,3 +339,18 @@ a:active  { text-decoration: none; color: unset;}
   bottom: 0px;
   text-align: center;
 }
+
+@media screen and (max-width:820px) {
+  .contact-us-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .location-info-div {
+    padding-left: 13%;
+  }
+
+  .linkedin-img-div {
+    padding-right: 2%;
+  }
+}
