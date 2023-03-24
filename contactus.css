@@ -352,7 +352,16 @@ a:active  { text-decoration: none; color: unset;}
   }
   
   .location-info-div {
-    padding-left: 13%;
+    padding: 0;
+    margin: 0;
+  }
+  
+    .location-info-div iframe {
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
   }
 
   .linkedin-img-div {
