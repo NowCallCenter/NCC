@@ -2,6 +2,7 @@ html, body {
   overflow-x:hidden 
 } 
 
+
 body{
   /* This style will be inherited */
   font-family: 'Roboto', sans-serif;
@@ -180,11 +181,10 @@ a:active  { text-decoration: none; color: unset;}
   .info-menu div a:hover {
     padding: 30px;
     font-size: 24px;
-    box-shadow: 0 1px 0 rgba(255,255,255, 0.1) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255, 0.3) inset;
   }
 
 }
-
 
 
 .main-section {
@@ -346,4 +346,39 @@ a:active  { text-decoration: none; color: unset;}
   position: relative;
   bottom: 0px;
   margin-top: 50px;
+}
+
+@media screen and (max-width:720px) {
+  .after-img-text-box {
+  padding: 5%; 
+ }
+
+  .after-img-text {width: 100%;
+  margin: 0;
+  font-size: 15px;
+  color: rgb(87, 87, 139);
+}
+  .after-img-small-paragraph {
+    width: 100%;
+    margin: 0; font-size: 15px;
+    color: lightgray;
+  }
+  .services-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .back-office-box, .customer-support-box {
+    width: 80%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+
+
+  .pitch-paragraphs {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
 }
