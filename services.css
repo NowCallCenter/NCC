@@ -25,7 +25,7 @@ a:active  { text-decoration: none; color: unset;}
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(87, 87, 139);
+  background-color: #002B5B;
   color: white;
   padding-right: 50px;
   transition: 0.2s;
@@ -184,4 +184,218 @@ a:active  { text-decoration: none; color: unset;}
     box-shadow: 0 1px 0 rgba(255,255,255, 0.3) inset;
   }
 
+}
+
+
+.top-div {
+  text-align: center;
+  margin: 50px;
+}
+
+.top-div h1 {
+  color: rgb(87, 87, 139);
+}
+
+.top-div p {
+  font-size: 25px;
+  width: 75%;
+  margin-left: 13%;
+  color: rgb(128, 128, 128);
+}
+
+.services-box {
+  margin: 70px;
+}
+
+.back-office-div {
+  align-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  place-items: center;
+  background-color: rgb(253, 244, 227);
+  opacity: 0.9;
+}
+
+.back-office-div img {
+  width: 300px;
+}
+
+.back-office-div h1 {
+  text-align: left;
+  color: rgb(87, 87, 139);
+}
+
+.back-office-div p {
+  font-size: 25px;
+}
+
+.chat-support-div {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  place-items: center;
+  background-color: rgb(240, 250, 222);
+  opacity: 0.9;
+}
+
+.chat-support-div img {
+  width: 300px;
+  margin: 0;
+}
+
+.chat-support-div h1 {
+  text-align: right;
+  color: rgb(87, 87, 139);
+}
+
+.chat-support-div p {
+  font-size: 25px;
+}
+
+.email-support-div {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  place-items: center;
+  background-color: rgb(255, 224, 224);
+  opacity: 0.9;
+}
+
+.email-support-div img {
+  width: 300px;
+}
+
+.email-support-div h1 {
+  color: rgb(87, 87, 139);
+}
+
+.email-support-div p {
+  font-size: 25px;
+}
+
+.phone-support-div {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  place-items: center;
+  background-color: rgb(255, 246, 231);
+}
+
+.phone-support-div img {
+  width: 300px;
+}
+
+.phone-support-div h1 {
+  color: rgb(87, 87, 139);
+}
+
+.phone-support-div p {
+  font-size: 25px;
+}
+
+.why-us-text {
+  color: rgb(87, 87, 139);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.why-us-bullet-points li{
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+@media screen and (max-width:820px) {
+  body {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .top-div {
+    margin: 10px;
+  }
+  .top-div h1{
+    font-size: 20px;
+  }
+  .top-div p {
+    font-size: 16px;
+  }
+  .back-office-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .back-office-div h1 {
+    font-size: 19px;
+  }
+  .back-office-div p {
+    font-size: 15px;
+    margin: 0;
+  }
+  .back-office-div img {
+    width: 200px;
+  }
+  .chat-support-div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .chat-support-div h1 {
+    font-size: 19px;
+  }
+  .chat-support-div p {
+    font-size: 15px;
+    margin: 0;
+  }
+  .chat-support-div img {
+    width: 200px;
+  }
+  .email-support-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .email-support-div h1 {
+    font-size: 19px;
+  }
+  .email-support-div p {
+    font-size: 15px;
+  }
+  .email-support-div img {
+    width: 230px;
+  }
+  .phone-support-div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .phone-support-div h1 {
+    font-size: 19px;
+  }
+  .phone-support-div p {
+    font-size: 15px;
+  }
+  .phone-support-div img {
+    width: 200px;
+  }
+  .why-us-div {
+    margin: 0;
+  }
+  .why-us-text {
+    font-size: 25px;
+  }
+  .why-us-bullet-points {
+    margin: 0;
+  }
+  .why-us-bullet-points li {
+    font-size: 16px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .bottom-rights-text {
+    font-size: 20px;
+  }
+}
+
+
+
+.bottom-rights-text {
+  font-size: 30px;
+  bottom: 0px;
+  text-align: center;
 }
