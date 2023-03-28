@@ -18,7 +18,9 @@ a:visited { text-decoration: none; color: unset;}
 a:hover   { text-decoration: none; color: unset;}
 a:active  { text-decoration: none; color: unset;}
 
-
+main {
+  position: relative;
+}
 
 .header {
   position: relative;
@@ -183,5 +185,105 @@ a:active  { text-decoration: none; color: unset;}
     font-size: 24px;
     box-shadow: 0 1px 0 rgba(255,255,255, 0.3) inset;
   }
+}
 
+.top-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  margin: 2%;
+  }
+
+.top-div img {
+  width: 700px;
+}
+
+.top-div h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-right: 0;
+}
+
+.top-div p {
+  width: 600px;
+  text-align: center;
+  margin-right: 50px;
+  font-size: 25px;
+}
+
+.bottom-div {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.bottom-div h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.mission-div {
+  text-align: center;
+}
+
+.mission-div p {
+  margin-right: 450px;
+  margin-left: 450px;
+}
+
+.mid-div {
+  margin: 3%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grow-div {
+  text-align: center;
+}
+
+.grow-div h2 {
+  font-size: 30px;
+}
+
+.grow-div p {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.promise-div {
+  text-align: center;
+}
+
+.promise-div h2 {
+  font-size: 30px;
+}
+
+.promise-div p {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.linkedin-img-div {
+  text-align: right;
+ }
+ 
+ .linkedin-img {
+   height: 50px;
+ }
+ 
+ .linkedin-button {
+   background-color: transparent;
+   border: none;
+   margin-right: 10%;
+ }
+ 
+ .linkedin-button:hover {
+   cursor: pointer;
+ }
+
+ .bottom-rights-text {
+  font-size: 30px;
+  bottom: 0px;
+  text-align: center;
 }
