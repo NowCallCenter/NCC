@@ -287,3 +287,107 @@ main {
   bottom: 0px;
   text-align: center;
 }
+
+@media screen and (max-width:820px) {
+  body {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .top-div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .top-div img {
+    width: 700px;
+  }
+  .top-div-inside p { 
+    width: 700px;
+    font-size: 20px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mission-div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .mission-div p {
+    width: 700px;
+    font-size: 20px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .grow-div p {
+    width: 90%;
+    font-size: 20px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .promise-div p {
+    width: 90%;
+    font-size: 20px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  body {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .top-div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .top-div img {
+    width: 280px;
+  }
+  .top-div-inside p { 
+    width: 280px;
+    font-size: 20px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mission-div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .mission-div p {
+    width: 280px;
+    font-size: 20px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mid-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .grow-div p {
+    width: 90%;
+    font-size: 20px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .promise-div p {
+    width: 90%;
+    font-size: 20px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
