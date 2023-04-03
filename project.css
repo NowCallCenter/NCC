@@ -25,7 +25,8 @@ a:active  { text-decoration: none; color: unset;}
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(87, 87, 139);
+  background-color: #002B5B;
+
   color: white;
   padding-right: 50px;
   transition: 0.2s;
