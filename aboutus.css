@@ -18,27 +18,33 @@ a:visited { text-decoration: none; color: unset;}
 a:hover   { text-decoration: none; color: unset;}
 a:active  { text-decoration: none; color: unset;}
 
-main {
-  position: relative;
-}
+
 
 .header {
   position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(87, 87, 139);
-  color: white;
+  background-color: white;
+  color: #01332a;
   padding-right: 50px;
   transition: 0.2s;
 }
 
 .company-name {
   padding: 25px;
-  font-size: 30px;
   animation-name: animation-company-name;
   animation-duration: 2s;
   position: relative;
+  width: 200px;
+  height: 100px;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 @keyframes animation-company-name {
@@ -79,6 +85,9 @@ main {
   padding: 40px 25px;
   line-height: 1;
   transition: 0.2s;
+  border: 2px solid #cb7800;
+  border-radius: 40px;
+  padding: 5px;
 }
 
 .info-menu div a:hover {
@@ -90,7 +99,7 @@ main {
   position: relative;
   width: 30px;
   height: 4px;
-  background: white;
+  background: #cb7800;
   border-radius: 10px;
   cursor:pointer;
   z-index: 2;
@@ -103,7 +112,7 @@ main {
   position: absolute;
   height: 4px;
   right: 0;
-  background: #fff;
+  background: #cb7800;
   border-radius: 10px;
   transition: 0.25s;
 }
@@ -170,7 +179,7 @@ main {
     position: fixed;
     top: 0;
     right: -300px;
-    background: rgb(87, 87, 139);
+    background: white;
     width: 300px;
     height: 100%;
     padding-top: 65px;
@@ -185,7 +194,9 @@ main {
     font-size: 24px;
     box-shadow: 0 1px 0 rgba(255,255,255, 0.3) inset;
   }
+
 }
+
 
 .top-div {
   display: grid;
@@ -199,16 +210,36 @@ main {
 }
 
 .top-div h1 {
+  color: #cb7800;
   text-align: center;
   font-size: 40px;
   margin-right: 0;
 }
 
 .top-div p {
+  color: #01332a;
   width: 600px;
   text-align: center;
   margin-right: 50px;
   font-size: 25px;
+}
+
+.mission-div {
+  text-align: center;
+}
+
+.mission-div h1 {
+  color: #cb7800;
+  text-align: center;
+  font-size: 40px;
+  margin-right: 0;
+}
+
+.mission-div p {
+  margin-right: 450px;
+  margin-left: 450px;
+  color: #01332a;
+  font-size: 22px;
 }
 
 .bottom-div {
@@ -219,18 +250,16 @@ main {
 }
 
 .bottom-div h1 {
+  color: #cb7800;
   font-size: 40px;
   font-weight: bold;
 }
 
-.mission-div {
-  text-align: center;
+.bottom-div p {
+  color: #01332a;
+  font-size: 23px;
 }
 
-.mission-div p {
-  margin-right: 450px;
-  margin-left: 450px;
-}
 
 .mid-div {
   margin: 3%;
@@ -244,9 +273,12 @@ main {
 
 .grow-div h2 {
   font-size: 30px;
+  color: #cb7800;
 }
 
 .grow-div p {
+  color: #01332a;
+  font-size: 20px;
   margin-right: 100px;
   margin-left: 100px;
 }
@@ -256,12 +288,15 @@ main {
 }
 
 .promise-div h2 {
+  color: #cb7800;
   font-size: 30px;
 }
 
 .promise-div p {
   margin-right: 100px;
   margin-left: 100px;
+  color: #01332a;
+  font-size: 20px;
 }
 
 .linkedin-img-div {
