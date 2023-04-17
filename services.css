@@ -25,18 +25,26 @@ a:active  { text-decoration: none; color: unset;}
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #002B5B;
-  color: white;
+  background-color: white;
+  color: #01332a;
   padding-right: 50px;
   transition: 0.2s;
 }
 
 .company-name {
   padding: 25px;
-  font-size: 30px;
   animation-name: animation-company-name;
   animation-duration: 2s;
   position: relative;
+  width: 200px;
+  height: 100px;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 @keyframes animation-company-name {
@@ -77,6 +85,9 @@ a:active  { text-decoration: none; color: unset;}
   padding: 40px 25px;
   line-height: 1;
   transition: 0.2s;
+  border: 2px solid #cb7800;
+  border-radius: 40px;
+  padding: 5px;
 }
 
 .info-menu div a:hover {
@@ -88,7 +99,7 @@ a:active  { text-decoration: none; color: unset;}
   position: relative;
   width: 30px;
   height: 4px;
-  background: white;
+  background: #cb7800;
   border-radius: 10px;
   cursor:pointer;
   z-index: 2;
@@ -101,7 +112,7 @@ a:active  { text-decoration: none; color: unset;}
   position: absolute;
   height: 4px;
   right: 0;
-  background: #fff;
+  background: #cb7800;
   border-radius: 10px;
   transition: 0.25s;
 }
@@ -168,7 +179,7 @@ a:active  { text-decoration: none; color: unset;}
     position: fixed;
     top: 0;
     right: -300px;
-    background: rgb(87, 87, 139);
+    background: white;
     width: 300px;
     height: 100%;
     padding-top: 65px;
@@ -186,21 +197,20 @@ a:active  { text-decoration: none; color: unset;}
 
 }
 
-
 .top-div {
   text-align: center;
   margin: 50px;
 }
 
 .top-div h1 {
-  color: rgb(87, 87, 139);
+  color: #cb7800
 }
 
 .top-div p {
   font-size: 25px;
   width: 75%;
   margin-left: 13%;
-  color: rgb(128, 128, 128);
+  color: #01332a
 }
 
 .services-box {
@@ -213,7 +223,6 @@ a:active  { text-decoration: none; color: unset;}
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
   place-items: center;
-  background-color: rgb(253, 244, 227);
   opacity: 0.9;
 }
 
@@ -223,11 +232,12 @@ a:active  { text-decoration: none; color: unset;}
 
 .back-office-div h1 {
   text-align: left;
-  color: rgb(87, 87, 139);
+  color: #cb7800
 }
 
 .back-office-div p {
   font-size: 25px;
+  color: #01332a;
 }
 
 .chat-support-div {
@@ -235,7 +245,6 @@ a:active  { text-decoration: none; color: unset;}
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   place-items: center;
-  background-color: rgb(240, 250, 222);
   opacity: 0.9;
 }
 
@@ -246,11 +255,12 @@ a:active  { text-decoration: none; color: unset;}
 
 .chat-support-div h1 {
   text-align: right;
-  color: rgb(87, 87, 139);
+  color: #cb7800;
 }
 
 .chat-support-div p {
   font-size: 25px;
+  color: #01332a;
 }
 
 .email-support-div {
@@ -258,7 +268,6 @@ a:active  { text-decoration: none; color: unset;}
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
   place-items: center;
-  background-color: rgb(255, 224, 224);
   opacity: 0.9;
 }
 
@@ -267,11 +276,12 @@ a:active  { text-decoration: none; color: unset;}
 }
 
 .email-support-div h1 {
-  color: rgb(87, 87, 139);
+  color: #cb7800;
 }
 
 .email-support-div p {
   font-size: 25px;
+  color: #01332a;
 }
 
 .phone-support-div {
@@ -279,7 +289,6 @@ a:active  { text-decoration: none; color: unset;}
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   place-items: center;
-  background-color: rgb(255, 246, 231);
 }
 
 .phone-support-div img {
@@ -287,20 +296,22 @@ a:active  { text-decoration: none; color: unset;}
 }
 
 .phone-support-div h1 {
-  color: rgb(87, 87, 139);
+  color: #cb7800;
 }
 
 .phone-support-div p {
   font-size: 25px;
+  color: #01332a;
 }
 
 .why-us-text {
-  color: rgb(87, 87, 139);
+  color: #cb7800;
   text-align: center;
   margin-bottom: 10px;
 }
 
 .why-us-bullet-points li{
+  color: #01332a;
   margin-top: 30px;
   font-size: 25px;
 }
