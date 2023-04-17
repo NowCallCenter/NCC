@@ -25,18 +25,26 @@ a:active  { text-decoration: none; color: unset;}
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(87, 87, 139);
-  color: white;
+  background-color: white;
+  color: #01332a;
   padding-right: 50px;
   transition: 0.2s;
 }
 
 .company-name {
   padding: 25px;
-  font-size: 30px;
   animation-name: animation-company-name;
   animation-duration: 2s;
   position: relative;
+  width: 200px;
+  height: 100px;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 @keyframes animation-company-name {
@@ -77,6 +85,9 @@ a:active  { text-decoration: none; color: unset;}
   padding: 40px 25px;
   line-height: 1;
   transition: 0.2s;
+  border: 2px solid #cb7800;
+  border-radius: 40px;
+  padding: 5px;
 }
 
 .info-menu div a:hover {
@@ -88,7 +99,7 @@ a:active  { text-decoration: none; color: unset;}
   position: relative;
   width: 30px;
   height: 4px;
-  background: white;
+  background: #cb7800;
   border-radius: 10px;
   cursor:pointer;
   z-index: 2;
@@ -101,7 +112,7 @@ a:active  { text-decoration: none; color: unset;}
   position: absolute;
   height: 4px;
   right: 0;
-  background: #fff;
+  background: #cb7800;
   border-radius: 10px;
   transition: 0.25s;
 }
@@ -168,7 +179,7 @@ a:active  { text-decoration: none; color: unset;}
     position: fixed;
     top: 0;
     right: -300px;
-    background: rgb(87, 87, 139);
+    background: white;
     width: 300px;
     height: 100%;
     padding-top: 65px;
@@ -186,24 +197,18 @@ a:active  { text-decoration: none; color: unset;}
 
 }
 
-
-@keyframes animation-info-menu {
-  0%   {top:-100px;}
-  100%  {top:0px;}
-}
-
 .top-div {
   text-align:center
 }
 
 .text-1 {
-  color: rgb(87, 87, 139);
+  color: #cb7800;
   font-size: 60px;
 }
 
 .text-2 {
   font-size: 30px;
-  color: rgb(122, 122, 122);
+  color: #01332a;
 }
 
 .contact-us-grid {
@@ -211,16 +216,14 @@ a:active  { text-decoration: none; color: unset;}
   grid-template-columns: 1fr 1fr;
 }
 
-* {
-  box-sizing: border-box;
-}
+
 
 .form-box {
   box-sizing: border-box;
   padding: 30px 0px 30px 50px;
   position: relative;
   margin-right: 10px;
-  color: rgb(87, 87, 139);
+  color: #01332a;
   font-weight: bold;
 }
 
@@ -334,11 +337,7 @@ a:active  { text-decoration: none; color: unset;}
   cursor: pointer;
 }
 
-.bottom-rights-text {
-  font-size: 30px;
-  bottom: 0px;
-  text-align: center;
-}
+
 
 @media screen and (max-width:820px) {
   .contact-us-grid {
@@ -346,17 +345,17 @@ a:active  { text-decoration: none; color: unset;}
     flex-direction: column;
     justify-content: space-evenly;
   }
-  
-   .form-box {
+
+  .form-box {
     padding: 7%;
   }
-  
+
   .location-info-div {
     padding: 0;
     margin: 0;
   }
-  
-    .location-info-div iframe {
+
+  .location-info-div iframe {
     width: 100%;
     padding-right: 5%;
     padding-left: 5%;
@@ -367,4 +366,10 @@ a:active  { text-decoration: none; color: unset;}
   .linkedin-img-div {
     padding-right: 2%;
   }
+}
+
+.bottom-rights-text {
+  font-size: 30px;
+  bottom: 0px;
+  text-align: center;
 }
