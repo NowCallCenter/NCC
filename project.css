@@ -78,6 +78,7 @@ a:active  { text-decoration: none; color: unset;}
 
 .info-menu div {
   list-style-type: none;
+  padding: 10px;
 }
 
 .info-menu div a {
