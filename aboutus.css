@@ -377,6 +377,11 @@ a:active  { text-decoration: none; color: unset;}
     margin-left: auto;
     margin-right: auto;
   }
+  
+    .partners img {
+    width: 175px;
+    padding-left: 20px;
+  }
 }
 
 @media screen and (max-width: 414px) {
@@ -430,5 +435,10 @@ a:active  { text-decoration: none; color: unset;}
     float: none;
     margin-left: auto;
     margin-right: auto;
+  }
+  
+    .partners img {
+    width: 150px;
+    padding-left: 20px;
   }
 }
