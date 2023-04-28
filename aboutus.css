@@ -300,6 +300,11 @@ a:active  { text-decoration: none; color: unset;}
   font-size: 20px;
 }
 
+.partners img {
+  width: 250px;
+  padding-left: 250px;
+}
+
 .linkedin-img-div {
   text-align: right;
  }
