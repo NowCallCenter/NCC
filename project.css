@@ -324,6 +324,19 @@ a:active  { text-decoration: none; color: unset;}
   margin-right: 300px;
 }
 
+.tech-partners-div {
+  text-align: center;
+}
+
+.tech-partners-div h1 {
+  color: #cb7800;
+}
+
+.tech-partners-div img {
+  width: 250px;
+  padding-top: 25px;
+}
+
 .reach-out-button-box {
   display: flex;
   justify-content: center;
