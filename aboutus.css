@@ -86,9 +86,8 @@ a:active  { text-decoration: none; color: unset;}
   padding: 40px 25px;
   line-height: 1;
   transition: 0.2s;
-  border: 2px solid #cb7800;
-  border-radius: 40px;
   padding: 5px;
+  color: #cb7800;
 }
 
 .info-menu div a:hover {
